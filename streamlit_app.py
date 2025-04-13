@@ -1,3 +1,10 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import requests
+from datetime import datetime
+
+
 # Настройка страницы
 st.set_page_config(
     layout="wide",
